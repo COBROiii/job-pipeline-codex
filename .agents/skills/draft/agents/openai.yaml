@@ -1,0 +1,5 @@
+interface:
+  display_name: "draft"
+  short_description: "Read a job ad, score fit, pick the CV, read the form, draft "
+policy:
+  allow_implicit_invocation: false

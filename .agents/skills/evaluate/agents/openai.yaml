@@ -1,0 +1,5 @@
+interface:
+  display_name: "evaluate"
+  short_description: "Fit score for a job link, the full review panel for an appli"
+policy:
+  allow_implicit_invocation: false

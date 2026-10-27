@@ -1,0 +1,5 @@
+interface:
+  display_name: "apply-lite"
+  short_description: "Low-usage application cycle for mass-apply roles"
+policy:
+  allow_implicit_invocation: false

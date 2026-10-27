@@ -1,0 +1,5 @@
+interface:
+  display_name: "apply"
+  short_description: "Full application cycle for roles the user cares about"
+policy:
+  allow_implicit_invocation: false

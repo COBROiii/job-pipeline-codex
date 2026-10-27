@@ -1,0 +1,5 @@
+.codex/hooks/.counts/
+*.tmp
+~$*
+Thumbs.db
+.DS_Store

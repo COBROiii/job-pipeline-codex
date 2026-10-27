@@ -1,0 +1,5 @@
+interface:
+  display_name: "find"
+  short_description: "Search job boards for new roles in the user's tracks and add"
+policy:
+  allow_implicit_invocation: false

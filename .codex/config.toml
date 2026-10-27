@@ -1,0 +1,31 @@
+# Project config for Codex. Loaded only once you trust this folder (Codex asks the first time you open it).
+model = "gpt-6.1-sol"
+model_reasoning_effort = "medium"
+
+# Codex asks before anything outside this folder, and before network commands it hasn't been allowed.
+approval_policy = "on-request"
+sandbox_mode = "workspace-write"
+
+# Live web search for job boards and employer research.
+web_search = "live"
+
+[sandbox_workspace_write]
+# Needed for git pull/push and for reading job ads with curl.
+network_access = true
+
+[agents]
+# The review panel runs three evaluators at once.
+max_concurrent_threads_per_session = 3
+
+# Browser for reading and filling application forms. It opens a visible Chrome window with
+# its own saved profile, so sign-ins you make there are kept for next time.
+[mcp_servers.playwright]
+command = "npx"
+args = ["-y", "@playwright/mcp@latest", "--browser", "chrome"]
+startup_timeout_sec = 60
+tool_timeout_sec = 120
+
+# Optional: if your CV points live in Notion, set enabled = true, then run `codex mcp login notion`.
+[mcp_servers.notion]
+url = "https://mcp.notion.com/mcp"
+enabled = false
