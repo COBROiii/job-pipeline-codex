@@ -4,7 +4,7 @@ A job application assistant for OpenAI Codex. It finds roles, scores how well yo
 
 This is the Codex version of [job-pipeline-template](https://github.com/COBROiii/job-pipeline-template), which runs in Claude Code. The workflow and rules are the same; only the wiring differs.
 
-**New here? Start with [USER_GUIDE.md](USER_GUIDE.md):** setup, making it yours, and what each command does.
+**New here? Start with [USER_GUIDE.md](USER_GUIDE.md):** setup, making it yours, and what each command does. On a Mac, set up with [USER_GUIDE_MAC.md](USER_GUIDE_MAC.md) first.
 
 > **Keep your copy private.** Once you fill it in, it holds your CV, contact details, diversity answers and every application you write.
 

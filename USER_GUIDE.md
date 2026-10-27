@@ -4,6 +4,8 @@ This folder is a job application assistant that runs inside OpenAI Codex. You gi
 
 You don't need to know how to code. You type commands into Codex and reply to its questions in plain English. This guide covers how to use the workflow from start to finish. How each part works inside is already written in the `.md` and `.toml` files, and you can ask Codex about any of them.
 
+**On a Mac?** Follow [USER_GUIDE_MAC.md](USER_GUIDE_MAC.md) for setup, then come back here from "The workflow".
+
 Using Claude Code instead? Use [job-pipeline-template](https://github.com/COBROiii/job-pipeline-template), the original version.
 
 ## What you need
